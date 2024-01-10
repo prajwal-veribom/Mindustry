@@ -45,7 +45,7 @@ Server builds are bundled with each released build (in Releases). If you'd rathe
 5. Enable developer mode on your device/emulator. If you are on testing on a phone you can follow [these instructions](https://developer.android.com/studio/command-line/adb#Enabling), otherwise you need to google how to enable your emulator's developer mode specifically.
 6. Run `gradlew android:assembleDebug` (or `./gradlew` if on linux/mac). This will create an unsigned APK in `android/build/outputs/apk`.
 
-To debug the application on a connected device/emulator, run `gradlew android:installDebug android:run`.
+To debug the application on a connected device/emulator, run `gradlew android:installDebug android:run`
 
 ### Troubleshooting
 
